@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #d4ecdd;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23345b63' fill-opacity='0.27' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.head {
+    background-color: #112031;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    color: white;
+}
+
+.nav-logo {
+    position: absolute;
+    left: 20px;
+    float: inline-start;
+    bottom: 583px;
+}
+
+.nav-logo .logo {
+    width: 200px;
+    height: 120px;
+}
+
+.head ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 22px;
+}
+
+.head li {
+    margin-right: 30px;
+    list-style: none;
+}
+
+.head a {
+    color: white;
+    text-decoration: none;
+}
+
+.head a:hover {
+    color: #D4ECDD;
+
+}
+
+.user-submit {
+    border-radius: 45px;
+    margin-top: 50px;
+    background-color: #112031;
+    width: 800px;
+    height: 700px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+.img-bank {
+    width: 430px;
+    height: 300px;
+    position: relative;
+    top: 40px;
+    left: 180px;
+}
+
+.user-data {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.user-data h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.user-data h3 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.btn-log {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right: 350px;
+    top: 270px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #D4ECDD;
+}
+
+.btn-log:hover {
+    cursor: pointer;
+    background-color: #345B63;
+    color: white;
+}
+
+.user-info,
+.password {
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.create-account {
+    position: relative;
+    top: 80px;
+}
+
+.create-account a {
+    color: gold;
+}
+
+.create-account a:hover {
+    color: goldenrod;
+}

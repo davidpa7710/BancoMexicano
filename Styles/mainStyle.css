@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(/Media/fondoDeBody.jpg);
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.user-submit {
+    border-radius: 45px;
+    margin-top: 20px;
+    background-color: #112031;
+    width: 600px;
+    height: 660px;
+    margin-left: 100px;
+}
+
+.img-bank {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    top: 40px;
+    left: 150px;
+}
+
+.user-register {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.user-register h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.user-register p {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.inputSize {
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.birthdayUser {
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.btn-register {
+    width: 200px;
+    height: 35px;
+    border: none;
+    background-color: #D4ECDD;
+    font-size: 22px;
+    border-radius: 10px;
+    position: absolute;
+    top: 420px;
+    left: 200px;
+    transition: all .4s ease;
+}
+
+.btn-register:hover {
+    background-color: #345B63;
+    color: white;
+    cursor: pointer;
+}
+
+.info-display {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    color: white;
+    margin-right: 20px;
+}
+
+.btn-beggin {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #D4ECDD;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.btn-beggin {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-beggin:after {
+    content: '»';
+    font-size: 32px;
+    position: absolute;
+    opacity: 0;
+    top: 1px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-beggin:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+.btn-beggin:hover:after {
+    opacity: 1;
+    right: 15px;
+
+}
