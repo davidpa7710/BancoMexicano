@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Mexicano</title>
+    <link rel="stylesheet" href="/Styles/style.css">
+</head>
+
+<body>
+    <header class="head">
+        <div class=" nav-logo">
+            <a href="/mainPage.html"><img src="/Media/Bancot Copy.png" alt="LogoBanco" class="logo"></a>
+        </div>
+        <ul>
+            <li> <a href="">
+                    Clientes
+                </a>
+            </li>
+            <li> <a href="">
+                    About Us
+                </a>
+            </li>
+            <li> <a href="/LogPage.html">
+                    Abre Tu Cuenta
+                </a>
+            </li>
+        </ul>
+    </header>
+    <div class="user-submit">
+        <img src="/Media/LogoBanco.png" alt="LogoBanco" class="img-bank">
+        <div class="user-data">
+            <h2>Bienvenido</h2>
+            <h3>ingrese su Numero de Tarjeta</h3>
+            <input type="text" name="" id="card-number" class="user-info" maxlength="16">
+            <h3>Ingrese su Contraseña</h3>
+            <input type="password" class="password" id="passwordUser" maxlength="8">
+            <button type="submit" class="btn-log" id="btn-login">Ingresar</button>
+            <p class="error" id="incorrect" style="color: red;"></p>
+            <p class="create-account">Aun no tiene cuenta? <a href="/mainPage.html"><b>Crea una aqui</b></a></p>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+
+</html>
